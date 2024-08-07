@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roshni Zajhera's Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* CSS for background image and animations */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .profile {
+            background: url('https://i.postimg.cc/65q8TtBN/chiron.webp') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            padding: 50px;
+            min-height: 100vh;
+            position: relative;
+        }
+        .profile-info {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            animation: bounce 2s infinite; /* Apply bounce animation */
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+        h1, h2, h3 {
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        h2 {
+            font-size: 2em;
+        }
+        h3 {
+            font-size: 1.5em;
+        }
+        p {
+            line-height: 1.6;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Roshni Zajhera</h1>
+            <p>Electronics and Telecommunications Student</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="profile">
+        <div class="container profile-info">
+            <h2>About Me</h2>
+            <p>Hello! I am Roshni Zajhera, a third-year student at Anjuman College of Engineering and Technology, pursuing a degree in Electronics and Telecommunications. I am passionate about technology and am currently interning in Python and Data Science. I also have a strong interest in sports and creative activities.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Sensor Detection Robot</h3>
+            <p>Developed in my 2nd year, this project involved creating a robot equipped with sensors to detect obstacles and navigate autonomously.</p>
+        </div>
+        <div class="project">
+            <h3>FM Transmitter</h3>
+            <p>Currently working on an FM transmitter project that aims to transmit audio signals over short distances.</p>
+        </div>
+        <div class="project">
+            <h3>QR Code Generator for Shopkeepers</h3>
+            <p>Created a small project that calculates the amount for transactions and generates a QR code for easy payments, enhancing the checkout experience.</p>
+        </div>
+    </section>
+
+    <section id="achievements" class="container">
+        <h2>Achievements</h2>
+        <div class="achievement-list">
+            <h3>School Achievements</h3>
+            <ul>
+                <li>Certificate in Rakhi Making</li>
+                <li>Best Out of Waste Competition</li>
+                <li>Elocution Competition</li>
+                <li>Essay Writing Competition</li>
+            </ul>
+            <h3>Graduation Achievements</h3>
+            <ul>
+                <li>Certificate in Throw Ball</li>
+                <li>Certificate in Football</li>
+                <li>Certificate in Kabaddi</li>
+            </ul>
+            <h3>Internship</h3>
+            <p>Currently interning in Python and Data Science</p>
+        </div>
+    </section>
+
+    <section id="hobbies" class="container">
+        <h2>Hobbies and Skills</h2>
+        <p><strong>Hobbies:</strong> Calligraphy, Shayari Writing, Arts & Crafts (using threads, pistachio shells, etc.)</p>
+        <p><strong>Skills:</strong> Basic knowledge of C, C++, Python, HTML. Currently learning and improving these skills.</p>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Phone: 123-456-789</p>
+        <p>Email: <a href="mailto:xyz@gmail.com">xyz@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/roshni-zajhera" target="_blank">linkedin.com/in/roshni-zajhera</a></p>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Roshni Zajhera. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

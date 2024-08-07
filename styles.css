@@ -1,0 +1,615 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    padding: 20px 0;
+}
+
+h2 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav .container {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    padding: 20px 0;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    animation: fadeIn 1s ease-out;
+}
+
+h2 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    animation: slideIn 1s ease-out;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #4CAF50;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.profile-info {
+    max-width: 600px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.achievement-list h3 {
+    margin-top: 20px;
+    color: #4CAF50;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav .container {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    padding: 20px 0;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    animation: fadeIn 1s ease-out;
+}
+
+h2 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.achievement-list h3 {
+    margin-top: 20px;
+    color: #4CAF50;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    animation: slideIn 1s ease-out;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #4CAF50;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.profile-info {
+    max-width: 600px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav .container {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    padding: 20px 0;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    animation: fadeIn 1s ease-out;
+}
+
+.animated-heading {
+    animation: moveDown 1s ease-in-out, moveLeftRight 2s ease-in-out infinite alternate, demolish 3s ease-in-out;
+}
+
+.animated-subheading {
+    animation: moveDown 1s ease-in-out;
+}
+
+h2 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.achievement-list h3 {
+    margin-top: 20px;
+    color: #4CAF50;
+}
+
+.purple {
+    color: purple;
+}
+
+.violet {
+    color: violet;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    animation: slideIn 1s ease-out;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #4CAF50;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.profile-info {
+    max-width: 600px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes moveDown {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes moveLeftRight {
+    from { transform: translateX(-10px); }
+    to { transform: translateX(10px); }
+}
+
+@keyframes demolish {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.2); opacity: 0.5; }
+    100% { transform: scale(0); opacity: 0; }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background: rgba(76, 175, 80, 0.8); /* Semi-transparent background for header */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+nav {
+    background: rgba(51, 51, 51, 0.8); /* Semi-transparent background for nav */
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav .container {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for sections */
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    animation: fadeIn 1s ease-out;
+}
+
+.animated-heading {
+    animation: moveDown 1s ease-in-out, moveLeftRight 2s ease-in-out infinite alternate, demolish 3s ease-in-out;
+}
+
+.animated-subheading {
+    animation: moveDown 1s ease-in-out;
+}
+
+h2 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.achievement-list h3 {
+    margin-top: 20px;
+    color: #4CAF50;
+}
+
+.purple {
+    color: purple;
+}
+
+.violet {
+    color: violet;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    animation: slideIn 1s ease-out;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #4CAF50;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.profile-info {
+    max-width: 600px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes moveDown {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes moveLeftRight {
+    from { transform: translateX(-10px); }
+    to { transform: translateX(10px); }
+}
+
+@keyframes demolish {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.2); opacity: 0.5; }
+    100% { transform: scale(0); opacity: 0; }
+}
+
